@@ -1,13 +1,63 @@
+
+
 body 
 
 {
     color: white;
     background-color: black;
     font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 a:link
 
 {
     color: red;
+}
+
+a:hover
+
+{
+    color: #9932CC;
+}
+
+#clipssection
+
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clips
+
+{
+    width: 15%;
+    height: 250px;
+    background-size: cover;
+}
+
+.clips a
+
+{
+    text-decoration: none;
+    height: 20%;
+    width: 100%;
+    display: inline-block;
+    margin-top: 40%;
+}
+
+
+.clips a:hover 
+
+{
+    background-color: white;
+    color: black;
+}
+
+.clips h2
+
+{   
+    text-align: center;
+    margin: 0;   
 }
