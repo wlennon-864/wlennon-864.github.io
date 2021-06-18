@@ -13,26 +13,48 @@ body
 a:link
 
 {
-    color: red;
+    color: #9932CC;
 }
 
 a:hover
 
 {
-    color: #9932CC;
+    
+    color: red;
+}
+
+#intro
+
+{
+    border-bottom: dotted white;
+    margin-bottom: 5%;
+}
+
+#about
+
+{
+    border-bottom: dotted white;
+    margin-bottom: 5%;
 }
 
 #clipssection
 
 {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
+    
+    padding-bottom: 2%;
+    border-bottom: dotted white;
+    margin-bottom: 5%;
+
 }
 
 .clips
 
 {
-    width: 15%;
+    
+    width: 15%; 
     height: 250px;
     background-size: cover;
 }
@@ -41,18 +63,23 @@ a:hover
 
 {
     text-decoration: none;
-    height: 20%;
+    height: 22%;
     width: 100%;
     display: inline-block;
     margin-top: 40%;
+    background-color: black;
+    color: white;
+
+
 }
 
 
 .clips a:hover 
 
 {
-    background-color: white;
-    color: black;
+    color: red;
+    background-color: none;
+
 }
 
 .clips h2
