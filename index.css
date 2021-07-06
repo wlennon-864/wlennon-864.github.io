@@ -6,8 +6,8 @@ body
     color: white;
     background-color: black;
     font-family: sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 a:link
@@ -87,4 +87,14 @@ a:hover
 {   
     text-align: center;
     margin: 0;   
+}
+
+.projects img
+
+{
+    max-width: 50%;
+    max-height: auto;
+    object-fit:  contain;
+    float: left;
+    padding-right: 3%;
 }
