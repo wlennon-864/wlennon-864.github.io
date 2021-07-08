@@ -8,12 +8,13 @@ body
     font-family: sans-serif;
     margin-left: 10%;
     margin-right: 10%;
+    height: 100%; /* added for footer project */
 }
 
 a:link
 
 {
-    color: #9932CC;
+    color: white;
 }
 
 a:hover
@@ -43,11 +44,9 @@ a:hover
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
     padding-bottom: 2%;
     border-bottom: dotted white;
     margin-bottom: 5%;
-
 }
 
 .clips
@@ -69,8 +68,6 @@ a:hover
     margin-top: 40%;
     background-color: black;
     color: white;
-
-
 }
 
 
@@ -79,7 +76,6 @@ a:hover
 {
     color: red;
     background-color: none;
-
 }
 
 .clips h2
@@ -89,15 +85,17 @@ a:hover
     margin: 0;   
 }
 
+#active
+
+{
+    border-bottom: dotted white;
+}
+
 .projects 
 
 {
     padding-bottom: 2%;
 }
-
-
-
-
 
 .projects img
 
@@ -105,6 +103,47 @@ a:hover
     max-width: 50%;
     max-height: auto;
     object-fit:  contain;
-    float: left;
     padding-right: 3%;
 }
+
+#pagecontainer
+
+{
+    position: relative;
+    min-height: 100%;
+}
+
+#everythingbutcontact /* aka "content wrap */
+
+{
+    
+}
+
+#contact
+
+{
+    
+    
+
+}
+
+.fab 
+
+{
+    font-size: 20px;
+}
+
+
+#twitterblue
+
+{
+    color: #50e4ea;
+
+}
+
+#linkedyellow
+
+{
+    color: blue;
+}
+
