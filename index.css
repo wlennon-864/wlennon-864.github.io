@@ -1,5 +1,13 @@
 
 
+
+* /* for footer project */
+
+{
+    margin: 0;
+    padding: 0;
+}
+
 body 
 
 {
@@ -8,7 +16,7 @@ body
     font-family: sans-serif;
     margin-left: 10%;
     margin-right: 10%;
-    height: 100%; /* added for footer project */
+    height: 100%; /* for footer project */
 }
 
 a:link
@@ -95,7 +103,10 @@ a:hover
 
 {
     padding-bottom: 2%;
+    display: flex;
 }
+
+
 
 .projects img
 
@@ -104,27 +115,30 @@ a:hover
     max-height: auto;
     object-fit:  contain;
     padding-right: 3%;
+    padding-bottom: 2%;
 }
 
 #pagecontainer
 
 {
-    position: relative;
     min-height: 100%;
 }
 
 #everythingbutcontact /* aka "content wrap */
 
 {
-    
+    overflow: auto;
+    padding-bottom: 100px;
 }
 
 #contact
 
 {
     
-    
-
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
 }
 
 .fab 
