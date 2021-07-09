@@ -16,7 +16,7 @@ body
     font-family: sans-serif;
     margin-left: 10%;
     margin-right: 10%;
-    height: 100%; /* for footer project */
+    height: 100%; 
 }
 
 a:link
@@ -25,10 +25,14 @@ a:link
     color: white;
 }
 
+a:visited
+{
+   color: white; 
+}
+
 a:hover
 
 {
-    
     color: red;
 }
 
@@ -91,6 +95,12 @@ a:hover
 {   
     text-align: center;
     margin: 0;   
+}
+
+h3
+
+{
+    padding-bottom: 2%;
 }
 
 #active
