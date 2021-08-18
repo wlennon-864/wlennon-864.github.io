@@ -112,7 +112,7 @@ h3
 .projects 
 
 {
-    padding-bottom: 2%;
+   padding-bottom: 2%;
     display: flex;
 }
 
@@ -171,3 +171,9 @@ h3
     color: blue;
 }
 
+#iframe
+
+{
+    background-color: white;
+    margin-bottom: 2%;
+}
