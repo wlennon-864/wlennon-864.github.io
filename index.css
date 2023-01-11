@@ -1,12 +1,15 @@
 
 
 
-* /* for footer project */
+* 
+
 
 {
     margin: 0;
     padding: 0;
 }
+
+
 
 body 
 
@@ -34,6 +37,7 @@ a:hover
 
 {
     color: red;
+    transition-duration: 3s;
 }
 
 #intro
@@ -90,6 +94,7 @@ a:hover
 {
     color: red;
     background-color: none;
+    
 }
 
 .clips h2
@@ -98,6 +103,7 @@ a:hover
     text-align: center;
     margin: 0;   
 }
+
 
 h3
 
@@ -117,10 +123,8 @@ h3
 
 {
    padding-bottom: 2%;
-    display: flex;
+   display: flex;
 }
-
-
 
 .projects img
 
@@ -132,13 +136,28 @@ h3
     padding-bottom: 2%;
 }
 
+#colomb
+
+{
+    min-width: 2000;
+    min-height: 1500;
+    padding-bottom: 2%;
+    
+}
+
+#colomb img
+
+{
+    justify-content: flex-end;
+}
+
 #pagecontainer
 
 {
     min-height: 100%;
 }
 
-#everythingbutcontact /* aka "content wrap */
+#everythingbutcontact /* aka "content wrap" */
 
 {
     overflow: auto;
